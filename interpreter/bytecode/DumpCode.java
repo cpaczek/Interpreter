@@ -13,7 +13,7 @@ public class DumpCode extends ByteCode {
 
     @Override
     public void init(ArrayList<String> args) {
-        val = args.get(1);
+        val = args.get(0);
     }
 
     @Override
