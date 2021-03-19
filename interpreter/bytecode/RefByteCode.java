@@ -1,5 +1,8 @@
 package interpreter.bytecode;
 
+/**
+ * Used for if a bytecode has a reference to somewhere else in the code via a label
+ */
 public abstract class RefByteCode extends ByteCode {
     private int location;
     private String label;

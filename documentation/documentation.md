@@ -1,11 +1,7 @@
-# CSC 413 - Project Two - The Interpreter
-
-## Student Name  : Cameron Paczek
-
-## Student ID    : 921192815
-
-## Student Email : Cpaczek@sfsu.edu
-
+# Cameron Paczek - Interpreter Documentation
+Student ID: 921192815
+Section: 413.02
+Github Link: https://github.com/csc413-sp21/csc413-p2-Cpaczek
 
 ***
 

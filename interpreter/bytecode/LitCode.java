@@ -6,6 +6,11 @@ import interpreter.virtualmachine.VirtualMachine;
 import java.util.ArrayList;
 
 
+/**
+ * The Lit ByteCode is used to push literal values to the runtime stack. In some cases, Lit
+ * ByteCodes will be accompanied with an id ( a variable name ), this id represents the variable
+ * name the value belongs to. This id is optional.
+ */
 public class LitCode extends ByteCode {
     int value;
     String identifier;
@@ -17,6 +22,11 @@ public class LitCode extends ByteCode {
         }
 
 
+    }
+
+    @Override
+    public String toString() {
+        return "LIT " + value + " " + (identifier == null ? "" : (identifier + " " + "int" + identifier));
     }
 
     @Override
